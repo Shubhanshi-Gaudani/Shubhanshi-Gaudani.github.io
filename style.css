@@ -8,6 +8,7 @@ header {
   text-align: center;
   background-color: #FFFFFF;
   padding: 20px;
+  margin-bottom: 10px; /* Decreased space between title and photo */
 }
 
 h1 {
@@ -33,6 +34,7 @@ h4 {
 .sidebar {
   flex: 1;
   padding: 50px;
+  margin-bottom: 10px; /* Decreased space between photo and text sections */
 }
 
 .sidebar img {
@@ -51,6 +53,12 @@ h4 {
   box-shadow: none;
 }
 
+.section-divider {
+  border-top: dashed 2px #A9A9A9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .about-section {
   background-color: rgba(164, 231, 231, 0.8);
 }
@@ -64,4 +72,26 @@ h4 {
 }
 
 .news-section {
-  background-color: rgba(90, 184, 142
+  background-color: rgba(90, 184, 142, 0.8);
+}
+
+h2 {
+  color: #000000;
+  font-size: 24px;
+  text-transform: lowercase;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.right-align {
+  text-align: right;
+}
+
+a {
+  color: #707070;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFAEC9;
+}
