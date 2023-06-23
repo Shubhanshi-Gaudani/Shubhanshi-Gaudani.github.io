@@ -5,14 +5,34 @@ body {
   }
   
   .section {
-    padding: 100px 0;
+    padding: 50px;
     background-color: #F8F8F8;
+    margin: 50px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
   .section-divider {
     background-color: #F6D3A3;
     height: 5px;
+    margin: 20px 0;
+    border: none;
+    border-top: dashed 2px #FFAEC9;
   }
   
-  /* Add additional styles as needed */
+  h2 {
+    color: #707070;
+    font-size: 24px;
+  }
+  
+  a {
+    color: #707070;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #FFAEC9;
+  }
   
