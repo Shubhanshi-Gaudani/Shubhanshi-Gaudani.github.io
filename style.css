@@ -6,16 +6,11 @@ body {
   
   .container {
     display: flex;
-    flex-direction: row;
   }
   
   .sidebar {
     flex: 1;
     padding: 50px;
-    background-color: #F8F8F8;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 50px;
   }
   
   .sidebar img {
@@ -28,19 +23,30 @@ body {
   }
   
   .section {
-    padding: 20px 0;
-    background-color: #FFD8BF;
+    padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  .section:last-child {
-    margin-bottom: 0;
+  .about-section {
+    background-color: #FFD8BF;
+  }
+  
+  .projects-section {
+    background-color: #C2C5FF;
+  }
+  
+  .publications-section {
+    background-color: #ACF3D2;
+  }
+  
+  .news-section {
+    background-color: #FFEEAD;
   }
   
   .section-divider {
-    border-top: dashed 2px #FFAEC9;
+    border-top: dashed 2px #A9A9A9;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -48,6 +54,12 @@ body {
   h2 {
     color: #707070;
     font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .right-align {
+    text-align: right;
   }
   
   a {
