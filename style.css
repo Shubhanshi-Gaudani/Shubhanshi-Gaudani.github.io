@@ -14,11 +14,7 @@ header {
 h1 {
   font-size: 32px;
   margin-bottom: 10px;
-}
-
-h3 {
-  font-size: 20px;
-  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 h4 {
@@ -49,7 +45,6 @@ h4 {
 .section {
   margin-bottom: 20px;
   border-radius: 10px;
-  box-shadow: none;
   overflow: hidden;
 }
 
@@ -83,15 +78,4 @@ h2 {
   font-weight: bold;
 }
 
-.right-align {
-  text-align: right;
-}
-
-a {
-  color: #707070;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #FFAEC9;
-}
+.right
