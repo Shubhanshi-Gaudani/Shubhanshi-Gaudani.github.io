@@ -1,0 +1,18 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section {
+    padding: 100px 0;
+    background-color: #F8F8F8;
+  }
+  
+  .section-divider {
+    background-color: #F6D3A3;
+    height: 5px;
+  }
+  
+  /* Add additional styles as needed */
+  
