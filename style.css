@@ -4,22 +4,45 @@ body {
     padding: 0;
   }
   
-  .section {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .sidebar {
+    flex: 1;
     padding: 50px;
     background-color: #F8F8F8;
-    margin: 50px 0;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 50px;
+  }
+  
+  .sidebar img {
+    max-width: 100%;
+  }
+  
+  .content {
+    flex: 2;
+    padding: 50px;
+  }
+  
+  .section {
+    padding: 20px 0;
+    background-color: #FFD8BF;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section:last-child {
+    margin-bottom: 0;
   }
   
   .section-divider {
-    background-color: #F6D3A3;
-    height: 5px;
-    margin: 20px 0;
-    border: none;
     border-top: dashed 2px #FFAEC9;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   h2 {
