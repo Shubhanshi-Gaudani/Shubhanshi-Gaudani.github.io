@@ -57,13 +57,13 @@ h4 {
 
 .about-section {
   background-color: rgba(164, 231, 231, 0.8);
-  height: 550px;
+  height: 540px;
 }
 
 .projects-section {
   background-color: rgba(134, 215, 199, 0.8);
   min-height: calc(100vh - 70px);
-  margin-left: 20px;
+  margin-left: 2%;
 }
 
 .publications-section {
