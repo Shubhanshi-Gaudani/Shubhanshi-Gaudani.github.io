@@ -29,7 +29,7 @@ h4 {
 
 .sidebar {
   flex: 1;
-  padding: 30px;
+  padding: 20px;
   margin-bottom: 10px;
 }
 
@@ -39,14 +39,14 @@ h4 {
 
 .content {
   flex: 2;
-  padding: 30px;
+  padding: 20px;
 }
 
 .section {
-  margin-top: 10px;
   margin-bottom: 20px;
   overflow: hidden;
   padding: 20px;
+  min-height: calc(100vh - 70px);
 }
 
 .section-divider {
@@ -68,102 +68,4 @@ h4 {
 }
 
 .news-section {
-  background-color: rgba(90, 184, 142, 0.8);
-}
-
-h2 {
-  color: #000000;
-  font-size: 24px;
-  text-transform: lowercase;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.right {
-  text-align: right;
-}
-
-
-/*body {
-  font-family: "Courier New", Courier, monospace;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  text-align: center;
-  background-color: #FFFFFF;
-  padding: 20px;
-  margin-bottom: 10px;
-}
-
-h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 16px;
-  margin-bottom: 5px;
-  font-weight: normal;
-}
-
-.container {
-  display: flex;
-}
-
-.sidebar {
-  flex: 1;
-  padding: 50px;
-  margin-bottom: 10px;
-}
-
-.sidebar img {
-  max-width: 100%;
-}
-
-.content {
-  flex: 2;
-  padding: 50px;
-}
-
-.section {
-  margin-bottom: 20px;
-  /*Gives rounded edges to the section boxes:*/
-  /*border-radius: 10px;
-  overflow: hidden;
-}
-
-.section-divider {
-  border-top: dashed 2px #A9A9A9;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.about-section {
-  background-color: rgba(164, 231, 231, 0.8);
-}
-
-.projects-section {
-  background-color: rgba(134, 215, 199, 0.8);
-}
-
-.publications-section {
-  background-color: rgba(110, 199, 174, 0.8);
-}
-
-.news-section {
-  background-color: rgba(90, 184, 142, 0.8);
-}
-
-h2 {
-  color: #000000;
-  font-size: 24px;
-  text-transform: lowercase;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.right
-*/
+  background-color: rgba(90
