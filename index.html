@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
   <title>Shubhanshi Gaudani - Personal Website</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <header>
     <h1>Shubhanshi Gaudani</h1>
+    <h4>Subtitle</h4>
     <h4>Northwestern University</h4>
     <h4>McCormick School of Engineering and Applied Sciences</h4>
   </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="news.html">News</a></li>
+    </ul>
+  </nav>
 
   <div class="container">
     <div class="sidebar">
       <img src="profile.jpeg" alt="Profile Picture">
     </div>
     <div class="content">
-      <div class="section about-section" id="about">
+      <section id="about-me" class="active-section">
         <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus eros massa, ut interdum est iaculis ut. Sed sit amet vulputate arcu. Suspendisse potenti. In hac habitasse platea dictumst.</p>
-      </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies justo vitae lacinia lacinia. Nullam varius eleifend turpis eu dapibus.</p>
+      </section>
 
-      <div class="section projects-section" id="projects">
+      <section id="projects">
         <h2>Projects</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus eros massa, ut interdum est iaculis ut. Sed sit amet vulputate arcu. Suspendisse potenti. In hac habitasse platea dictumst.</p>
-      </div>
+        <!-- Add your project content here -->
+      </section>
 
-      <div class="section publications-section" id="publications">
+      <section id="publications">
         <h2>Publications</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus eros massa, ut interdum est iaculis ut. Sed sit amet vulputate arcu. Suspendisse potenti. In hac habitasse platea dictumst.</p>
-      </div>
+        <!-- Add your publication content here -->
+      </section>
 
-      <div class="section news-section" id="news">
+      <section id="news">
         <h2>News</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus eros massa, ut interdum est iaculis ut. Sed sit amet vulputate arcu. Suspendisse potenti. In hac habitasse platea dictumst.</p>
-      </div>
+        <!-- Add your news content here -->
+      </section>
     </div>
   </div>
 
-  <script>
-    window.addEventListener("wheel", function(event) {
-      event.preventDefault();
-      const container = document.querySelector(".container");
-      const deltaY = event.deltaY;
-      container.scrollBy(0, deltaY);
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
