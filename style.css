@@ -62,7 +62,7 @@ h4 {
 .projects-section {
   background-color: rgba(134, 215, 199, 0.8);
   min-height: calc(100vh - 70px);
-  margin-left: calc(33.33vw + 20px);
+  margin-left: calc(33.33vw);
 }
 
 .publications-section {
