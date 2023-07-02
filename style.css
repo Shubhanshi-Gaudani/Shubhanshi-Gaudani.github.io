@@ -46,7 +46,6 @@ h4 {
   margin-bottom: 20px;
   overflow: hidden;
   padding: 20px;
-  min-height: calc(100vh - 70px);
 }
 
 .section-divider {
@@ -57,15 +56,18 @@ h4 {
 
 .about-section {
   background-color: rgba(164, 231, 231, 0.8);
+  height: calc(100vh - 70px);
 }
 
 .projects-section {
   background-color: rgba(134, 215, 199, 0.8);
+  min-height: calc(100vh - 70px);
 }
 
 .publications-section {
   background-color: rgba(110, 199, 174, 0.8);
+  min-height: calc(100vh - 70px);
 }
 
 .news-section {
-  background-color: rgba(90
+  background-color: rgba(90, 184, 142, 0.8);
