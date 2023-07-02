@@ -44,7 +44,8 @@ h4 {
 
 .section {
   margin-bottom: 20px;
-  border-radius: 10px;
+  /*Gives rounded edges to the section boxes:*/
+  /*border-radius: 10px;*/
   overflow: hidden;
 }
 
