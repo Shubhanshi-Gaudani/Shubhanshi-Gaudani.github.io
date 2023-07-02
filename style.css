@@ -2,6 +2,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth; /* Add smooth scrolling behavior */
 }
 
 header {
@@ -56,13 +57,13 @@ h4 {
 
 .about-section {
   background-color: rgba(164, 231, 231, 0.8);
-  height: 500px;
+  height: 550px;
 }
 
 .projects-section {
   background-color: rgba(134, 215, 199, 0.8);
   min-height: calc(100vh - 70px);
-  margin-left: 1%;
+  margin-left: 10%;
 }
 
 .publications-section {
