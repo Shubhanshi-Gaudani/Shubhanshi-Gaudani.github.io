@@ -45,6 +45,7 @@ h4 {
 .section {
   margin-bottom: 20px;
   overflow: hidden;
+  padding: 20px;
 }
 
 .section-divider {
