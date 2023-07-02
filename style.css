@@ -35,4 +35,32 @@ section {
   display: none;
 }
 
+.project {
+  margin-bottom: 1.5em;
+}
+
+.project-divider {
+  border: none;
+  border-top: 1px dotted #000;
+  margin: 1.5em 0;
+}
+
+.project-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.project-tags {
+  margin-bottom: 0.5em;
+}
+
+.project-summary {
+  margin-bottom: 0.5em;
+}
+
+.project-links a {
+  margin-right: 1em;
+}
+
+
 /* Rest of the CSS code remains the same */
