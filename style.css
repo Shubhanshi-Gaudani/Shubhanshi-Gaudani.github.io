@@ -43,6 +43,7 @@ h4 {
 }
 
 .section {
+  margin-top: 10px;
   margin-bottom: 20px;
   overflow: hidden;
   padding: 20px;
