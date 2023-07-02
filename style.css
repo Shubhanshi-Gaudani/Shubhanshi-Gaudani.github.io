@@ -62,13 +62,13 @@ h4 {
 .projects-section {
   background-color: rgba(134, 215, 199, 0.8);
   min-height: calc(100vh - 70px);
-  margin-left: calc(33.33vw);
+  margin-left: 33.33%;
 }
 
 .publications-section {
   background-color: rgba(110, 199, 174, 0.8);
   min-height: calc(100vh - 70px);
-  margin-left: calc(33.33vw);
+  margin-left: 33.33%;
 }
 
 .news-section {
@@ -76,7 +76,7 @@ h4 {
   min-height: calc(100vh - 70px);
   border: 2px solid #A9A9A9;
   border-radius: 5px;
-  margin-left: calc(33.33vw + 20px);
+  margin-left: 33.33%;
 }
 
 h2 {
