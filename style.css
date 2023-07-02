@@ -68,7 +68,7 @@ h4 {
 .publications-section {
   background-color: rgba(110, 199, 174, 0.8);
   min-height: calc(100vh - 70px);
-  margin-left: calc(33.33vw + 20px);
+  margin-left: calc(33.33vw);
 }
 
 .news-section {
