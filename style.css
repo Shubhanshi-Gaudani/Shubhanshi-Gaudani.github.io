@@ -29,7 +29,7 @@ h4 {
 
 .sidebar {
   flex: 1;
-  padding: 50px;
+  padding: 30px;
   margin-bottom: 10px;
 }
 
@@ -39,7 +39,7 @@ h4 {
 
 .content {
   flex: 2;
-  padding: 50px;
+  padding: 30px;
 }
 
 .section {
