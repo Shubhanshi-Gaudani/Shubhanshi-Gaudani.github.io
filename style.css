@@ -16,60 +16,21 @@ body {
   color: #333; /* Dark grey font color */
 }
 
-/* Style the navigation bar */
-nav {
+/* Style the header */
+.header {
   background-color: #c1e1dc; /* Pastel green */
-  padding: 10px 0;
+  padding: 20px;
   text-align: center;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+/* Style the header h1 and h2 */
+.header h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
 }
 
-nav li {
-  display: inline;
-  margin: 0 10px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333; /* Dark grey font color */
-}
-
-nav a:hover {
-  color: #fff; /* White font color on hover */
-  background-color: #228b22; /* Dark green on hover */
-  border-radius: 4px;
-  padding: 5px 10px;
-}
-
-/* Style the sections */
-section {
-  padding: 20px;
-  margin: 30px 0;
-  background-color: #fff; /* White background color for sections */
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-/* style.css */
-
-/* Reset some default styles to ensure consistent rendering across different browsers */
-body, h1, h2, h3, p {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, sans-serif;
-}
-
-/* Set a background color and font color */
-body {
-  background-color: #f0f9f9; /* Pastel blue */
-  color: #333; /* Dark grey font color */
+.header h2 {
+  font-size: 16px;
 }
 
 /* Style the navigation bar */
@@ -109,4 +70,18 @@ section {
   background-color: #fff; /* White background color for sections */
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the About Me section */
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.profile-picture {
+  margin-right: 20px;
 }
