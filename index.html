@@ -1,77 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Shubhanshi Gaudani - Personal Website</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Shubhanshi Gaudani - PhD Candidate</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Shubhanshi Gaudani</h1>
-    <h4>Northwestern University</h4>
-    <h4>McCormick School of Engineering and Applied Sciences</h4>
-  </header>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#teaching">Teaching</a></li>
+            <li><a href="#interests">Misc. Interests/News</a></li>
+        </ul>
+    </nav>
 
-  <div class="container">
-    <div class="sidebar">
-      <img src="profile.jpeg" alt="Profile Picture">
-    </div>
-    <div class="content">
-      <div class="section about-section" id="about">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus eros massa, ut interdum est iaculis ut. Sed sit amet vulputate arcu. Suspendisse potenti. In hac habitasse platea dictumst.</p>
-      </div>
+    <!-- About Me section -->
+    <section id="about">
+        <h1>About Me</h1>
+        <!-- Add your introduction and relevant details here -->
+    </section>
 
-      <div class="section projects-section" id="projects">
-        <section id="projects" class="section">
-          <h2 class="section-header">Projects</h2>
-          <div class="project">
-            <h3 class="project-title">Intelligent Coaching Systems: Understanding One-to-many Coaching for Ill-defined Problem Solving</h3>
-            <p class="project-tags">#research, #project done towards developing a tool</p>
-            <p class="project-summary">Brief summary about project</p>
-            <p class="project-links">
-              <a href="link-to-code" target="_blank">Link to code</a>
-              <a href="link-to-paper.pdf" target="_blank">Link to paper.pdf</a>
-            </p>
-          </div>
-        
-          <hr class="project-divider" />
-        
-          <div class="project">
-            <h3 class="project-title">Impact of Training Data Composition on Gender Bias in a Fine-tuned GPT 2 LLM</h3>
-            <p class="project-tags">#dev</p>
-            <p class="project-summary">Brief summary about project</p>
-            <p class="project-links">
-              <a href="link-to-final-paper" target="_blank">Files: Final Research Paper</a>
-              <a href="link-to-research-poster" target="_blank">Research Poster</a>
-              <a href="link-to-code" target="_blank">Code</a>
-            </p>
-          </div>
-        </section>
-        
-        
-        
-      </div>
+    <!-- Research section -->
+    <section id="research">
+        <h1>Research</h1>
+        <!-- Add information about your research here -->
+    </section>
 
-      <div class="section publications-section" id="publications">
-        <h2>Publications</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus eros massa, ut interdum est iaculis ut. Sed sit amet vulputate arcu. Suspendisse potenti. In hac habitasse platea dictumst.</p>
-      </div>
+    <!-- Teaching section -->
+    <section id="teaching">
+        <h1>Teaching</h1>
+        <!-- Add information about your teaching experience here -->
+    </section>
 
-      <div class="section news-section" id="news">
-        <h2>News</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus eros massa, ut interdum est iaculis ut. Sed sit amet vulputate arcu. Suspendisse potenti. In hac habitasse platea dictumst.</p>
-      </div>
-    </div>
-  </div>
+    <!-- Misc. Interests/News section -->
+    <section id="interests">
+        <h1>Misc. Interests/News</h1>
+        <!-- Add any other interests or news updates here -->
+    </section>
 
-  <script>
-    window.addEventListener("wheel", function(event) {
-      event.preventDefault();
-      const container = document.querySelector(".container");
-      const deltaY = event.deltaY;
-      container.scrollBy(0, deltaY);
-    });
-  </script>
+    <!-- Add your picture here -->
+    <img src="profile.jpeg" alt="Profile Picture">
+
+    <script src="script.js"></script>
 </body>
 </html>

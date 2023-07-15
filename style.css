@@ -1,124 +1,112 @@
-body {
-  font-family: "Courier New", Courier, monospace;
+/* style.css */
+
+/* Reset some default styles to ensure consistent rendering across different browsers */
+body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth; /* Add smooth scrolling behavior */
 }
 
-header {
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Set a background color and font color */
+body {
+  background-color: #f0f9f9; /* Pastel blue */
+  color: #333; /* Dark grey font color */
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #c1e1dc; /* Pastel green */
+  padding: 10px 0;
   text-align: center;
-  background-color: #FFFFFF;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333; /* Dark grey font color */
+}
+
+nav a:hover {
+  color: #fff; /* White font color on hover */
+  background-color: #228b22; /* Dark green on hover */
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+/* Style the sections */
+section {
   padding: 20px;
-  margin-bottom: 10px;
-}
-
-h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 16px;
-  margin-bottom: 5px;
-  font-weight: normal;
-}
-
-.container {
-  display: flex;
-}
-
-.sidebar {
-  flex: 1;
-  padding: 20px;
-  margin-bottom: 10px;
-  height: 550px;
-}
-
-.sidebar img {
-  max-width: 100%;
-}
-
-.content {
-  flex: 2;
-  padding: 20px;
-}
-
-.section {
-  margin-bottom: 20px;
-  overflow: hidden;
-  padding: 20px;
-}
-
-.section-divider {
-  border-top: dashed 2px #A9A9A9;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.about-section {
-  background-color: rgba(164, 231, 231, 0.8);
-  height: 540px;
-}
-
-.projects-section {
-  background-color: rgba(134, 215, 199, 0.8);
-  min-height: calc(100vh - 70px);
-  margin-left: 2%;
-}
-
-.publications-section {
-  background-color: rgba(110, 199, 174, 0.8);
-  min-height: calc(100vh - 70px);
-  margin-left: 33.33%;
-}
-
-.news-section {
-  background-color: rgba(90, 184, 142, 0.8);
-  min-height: calc(100vh - 70px);
-  border: 2px solid #A9A9A9;
+  margin: 30px 0;
+  background-color: #fff; /* White background color for sections */
   border-radius: 5px;
-  margin-left: 33.33%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* style.css */
+
+/* Reset some default styles to ensure consistent rendering across different browsers */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
 }
 
-h2 {
-  color: #000000;
-  font-size: 24px;
-  text-transform: lowercase;
-  margin-bottom: 10px;
-  font-weight: bold;
+body {
+  font-family: Arial, sans-serif;
 }
 
-.right {
-  text-align: right;
+/* Set a background color and font color */
+body {
+  background-color: #f0f9f9; /* Pastel blue */
+  color: #333; /* Dark grey font color */
 }
 
-.project {
-  margin-bottom: 1.5em;
+/* Style the navigation bar */
+nav {
+  background-color: #c1e1dc; /* Pastel green */
+  padding: 10px 0;
+  text-align: center;
 }
 
-.project-divider {
-  border: none;
-  border-top: 1px dotted #000;
-  margin: 1.5em 0;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.project-title {
-  font-size: 1.2em;
-  font-weight: bold;
+nav li {
+  display: inline;
+  margin: 0 10px;
 }
 
-.project-tags {
-  margin-bottom: 0.5em;
+nav a {
+  text-decoration: none;
+  color: #333; /* Dark grey font color */
 }
 
-.project-summary {
-  margin-bottom: 0.5em;
+nav a:hover {
+  color: #fff; /* White font color on hover */
+  background-color: #228b22; /* Dark green on hover */
+  border-radius: 4px;
+  padding: 5px 10px;
 }
 
-.project-links a {
-  margin-right: 1em;
+/* Style the sections */
+section {
+  padding: 20px;
+  margin: 30px 0;
+  background-color: #fff; /* White background color for sections */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-
-/* Rest of the CSS code remains the same */
