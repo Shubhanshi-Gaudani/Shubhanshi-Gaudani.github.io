@@ -18,13 +18,14 @@ body {
 
 /* Style the header */
 .header {
-  background-color: #c1e1dc; /* Pastel green */
+  background-color: #fff; /* Pastel green */
   padding: 20px;
   text-align: center;
 }
 
 /* Style the header h1 and h2 */
 .header h1 {
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 24px;
   margin-bottom: 5px;
 }
