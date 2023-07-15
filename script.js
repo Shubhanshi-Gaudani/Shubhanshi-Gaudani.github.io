@@ -18,11 +18,6 @@ function smoothScroll(target) {
   });
 }
 
-// Show the default section when the page loads (About Me in this case)
-document.addEventListener('DOMContentLoaded', () => {
-  hideSections('about-section');
-});
-
 // Event listener for navigation clicks
 document.querySelectorAll('nav a').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
