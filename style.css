@@ -7,7 +7,7 @@ body, h1, h2, h3, p {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Courier New", monospace; 
 }
 
 /* Set a background color and font color */
@@ -85,3 +85,22 @@ section {
 .profile-picture {
   margin-right: 20px;
 }
+
+/* Style the profile picture image */
+.profile-picture img {
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  border-radius: 50%; /* Make the image an oval by using a 50% border-radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+/* Style the text box */
+.about-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
