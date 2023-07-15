@@ -36,3 +36,9 @@ document.querySelectorAll('nav a').forEach(anchor => {
       smoothScroll(targetSection);
   });
 });
+
+// Show the default section when the page loads (About Me in this case)
+document.addEventListener('DOMContentLoaded', () => {
+  hideSections('about-section');
+  document.getElementById('about-section').style.display = 'block';
+});
