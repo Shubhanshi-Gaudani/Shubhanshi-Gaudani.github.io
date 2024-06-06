@@ -1,51 +1,44 @@
-.main {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
-}
-
-.description {
-  background: #333;
-  color: #fff;
-  padding: 2rem 0;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
   text-align: center;
 }
 
-.description h1 {
-  margin: 0;
+.title {
+  font-family: 'Courier New', monospace;
+  margin-top: 300px;
 }
 
-.menu {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-  background: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-.menu ul {
+.nav ul {
   list-style: none;
   padding: 0;
 }
 
-.menu li {
-  padding: 1rem;
-  border-bottom: 1px solid #ddd;
+.nav ul li {
+  margin: 0 20px;
+  display: inline-block;
 }
 
-.menu li:last-child {
-  border-bottom: none;
-}
-
-.menu a {
+.nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: rgb(125, 121, 121);
+  font-family: 'Courier New', monospace; 
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
-.menu a:hover {
-  color: #555;
+.nav ul li a:hover {
+  color: #f044dc;
+}
+
+.description {
+  font-family: 'Courier New', monospace;
+  margin-top: 50px;
 }

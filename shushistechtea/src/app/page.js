@@ -1,20 +1,14 @@
-import styles from "./page.module.css";
-import Link from "next/link";
+import Link from 'next/link';
+import styles from './page.module.css';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <h1>Shushi's Tech Tea</h1>
-        <p>
-          Welcome to Shushi's Tech Tea blog.
-        </p>
-      </div>
-
-      <div className={styles.menu}>
+    <div className={styles.container}>
+      <h1 className={styles.title}>Shushi's Tech Tea</h1>
+      <nav className={styles.nav}>
         <ul>
           <li>
-            <Link href="/design">Design</Link>
+            <Link href="/design">Design Philosophy</Link>
           </li>
           <li>
             <Link href="/ethic">Ethics</Link>
@@ -23,7 +17,10 @@ export default function Home() {
             <Link href="/documentation">Documentation</Link>
           </li>
         </ul>
-      </div>
-    </main>
+      </nav>
+      <p className={styles.description}>
+        Hello! I'm currently finishing up my BS/MS in Computer Science at Northwestern University and an incoming new grad software engineer at Microsoft. I share thoughts/musings (occasionally rants) on software engineering in practice! </p>
+      <p className={styles.description}> (Oh, and pardon my sporadic comma splices, my major only taught me how to put semicolons in the right place.) </p>
+    </div>
   );
 }
